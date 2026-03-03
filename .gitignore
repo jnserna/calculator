@@ -1,0 +1,50 @@
+# --- Next.js / Web ---
+node_modules/
+.next/
+out/
+build/
+dist/
+.env*.local
+.vercel
+*.tsbuildinfo
+
+# --- Capacitor ---
+# Ignore synced web assets — regenerated via 'npx cap sync'
+android/app/src/main/assets/public/
+android/app/build/
+ios/App/App/public/
+
+# --- Android / Gradle ---
+.gradle/
+local.properties
+*.log
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# --- Android Profiling ---
+*.hprof
+
+# --- IntelliJ / Android Studio ---
+.idea/
+*.iml
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# --- VS Code ---
+.vscode/
+
+# --- System / OS ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- Security (NEVER TRACK THESE) ---
+*.jks
+*.keystore
+google-services.json

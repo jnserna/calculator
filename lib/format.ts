@@ -1,6 +1,5 @@
 const currencyFormatter = new Intl.NumberFormat('es', {
-  style: 'currency',
-  currency: 'USD',
+  style: 'decimal',
   minimumFractionDigits: 2,
   maximumFractionDigits: 2,
 })

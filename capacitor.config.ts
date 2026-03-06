@@ -7,6 +7,10 @@ const config: CapacitorConfig = {
   server: {
     androidScheme: 'https',
   },
+  android: {
+    versionCode: 2,
+    versionName: '1.0.1',
+  },
 }
 
 export default config

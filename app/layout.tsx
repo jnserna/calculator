@@ -1,10 +1,14 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import { LoanProvider } from '@/context/LoanContext'
 
 export const metadata: Metadata = {
   title: 'Paloan',
   description: 'Calculadora de amortización de préstamos',
+}
+
+export const viewport: Viewport = {
+  viewportFit: 'cover',
 }
 
 export default function RootLayout({

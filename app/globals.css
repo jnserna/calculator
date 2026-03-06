@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .pt-safe-header {
+    padding-top: calc(0.75rem + env(safe-area-inset-top));
+  }
+  .pb-safe-button {
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 html,

@@ -204,7 +204,7 @@ export default function MainScreen() {
       </main>
 
       {/* Section 3: Action */}
-      <div className="px-4 py-4 bg-white border-t border-gray-100">
+      <div className="px-4 pt-4 pb-safe-button bg-white border-t border-gray-100">
         <button
           onClick={handleCalculate}
           className="w-full py-4 rounded-2xl text-white font-bold text-base bg-gradient-to-r from-primary to-[#8B7FEE] shadow-lg active:scale-[0.98] transition-transform"

@@ -10,7 +10,7 @@ interface HeaderProps {
 
 export default function Header({ title, showBack = false, onBack, showMenu = false }: HeaderProps) {
   return (
-    <header className="sticky top-0 z-40 flex items-center gap-2 px-4 py-3 bg-gradient-to-r from-primary to-[#8B7FEE] shadow-md">
+    <header className="sticky top-0 z-40 flex items-center gap-2 px-4 pb-3 pt-safe-header bg-gradient-to-r from-primary to-[#8B7FEE] shadow-md">
       {showBack ? (
         <button
           onClick={onBack}

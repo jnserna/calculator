@@ -8,7 +8,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: '#6C5CE7',
+        primary: '#66F1C2',
         teal: '#00CEC9',
         coral: '#FF7675',
         amber: '#FDCB6E',
@@ -23,7 +23,7 @@ const config: Config = {
         '3xl': '1.5rem',
       },
       boxShadow: {
-        card: '0 4px 20px rgba(108, 92, 231, 0.08)',
+        card: '0 4px 20px rgba(102, 241, 194, 0.08)',
       },
     },
   },

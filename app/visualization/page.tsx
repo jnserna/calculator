@@ -66,8 +66,8 @@ export default function VisualizationScreen() {
             >
               <defs>
                 <linearGradient id="gradCapital" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="#6C5CE7" stopOpacity={0.25} />
-                  <stop offset="95%" stopColor="#6C5CE7" stopOpacity={0} />
+                  <stop offset="5%" stopColor="#66F1C2" stopOpacity={0.25} />
+                  <stop offset="95%" stopColor="#66F1C2" stopOpacity={0} />
                 </linearGradient>
                 <linearGradient id="gradCosto" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%" stopColor="#FF7675" stopOpacity={0.25} />
@@ -104,7 +104,7 @@ export default function VisualizationScreen() {
               <Area
                 type="monotone"
                 dataKey="capitalRestante"
-                stroke="#6C5CE7"
+                stroke="#66F1C2"
                 strokeWidth={2.5}
                 fill="url(#gradCapital)"
                 dot={false}

@@ -1,4 +1,4 @@
-package com.paloan.app;
+package com.paloan.calculadora;
 
 import com.getcapacitor.BridgeActivity;
 
